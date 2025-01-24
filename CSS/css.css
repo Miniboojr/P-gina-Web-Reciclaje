@@ -1,0 +1,530 @@
+/******Web entera******/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(138, 187, 130);
+    border-radius: 1ch;
+    text-align: justify;
+}
+
+header {
+    padding: 1%;
+    background-color: #2d56dd;
+    background-color: rgb(104, 167, 104);
+    border-radius: 1ch;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(104, 167, 104);
+    border-radius: 1ch;
+}
+
+nav ul {
+    background-color: #758ddb;
+    overflow: hidden;
+    /* Previene cambios en el tamaño del contenedor */
+    width: 94%;
+    height: 30px;
+    border-radius: 2ch;
+}
+
+.Ancla {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(49, 148, 35);
+    color: white;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+    font-size: medium;
+}
+
+.Ancla:hover {
+    background-color: rgb(31, 113, 20);
+    /* Cambiar color al pasar el mouse */
+    transform: scale(1.1);
+    /* Hacer un poco más grande */
+}
+
+/******Página principal******/
+
+.header_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h1_principal {
+    margin-right: 35%;
+    margin-top: 5.5%;
+}
+
+.navprincipal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5%;
+    color: white;
+    list-style: none;
+    height: 40px;
+    width: 100%;
+}
+
+li .enlace {
+    transition: font-size 0.3s ease, color 0.3s ease;
+    /*Fa que quanel botó creix, creixi amb fluidesa i no de sobte*/
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    font-size: medium;
+    display: flex;
+}
+
+.enlace:hover {
+    font-size: larger;
+    border-radius: 2ch;
+    background-color: #6277bd;
+}
+
+.div_articulo_1 {
+    background-color: rgb(152, 206, 144);
+    padding: 1%;
+    border-radius: 1ch;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+}
+
+.imgDivArticulo1 {
+    padding-left: 3%;
+}
+
+footer {
+    background-color: (104, 167, 104);
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+minicontacto {
+    padding: 0.4%;
+}
+
+.minicontactos {
+    color: blue;
+    text-decoration: none;
+    padding: 0.4%;
+}
+
+/******Subpáginas******/
+
+.subpagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.button {
+    transition: font-size 0.3s ease, color 0.3s ease;
+    /*Fa que quan el botó creix, creixi amb fluidesa i no de sobte*/
+    padding: 0.5%;
+    color: black;
+    background-color: rgb(104, 167, 104);
+    text-decoration: none;
+    margin-left: 3%;
+    width: 11%;
+    font-size: x-large;
+    font-weight: bold;
+    margin-right: 1%;
+    border-radius: 2ch;
+}
+
+.button:hover {
+    background-color: rgb(85, 135, 85);
+    font-size: 171%;
+}
+
+.listasubpagina {
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1% 1% 1% 1%;
+    color: white;
+    list-style: none;
+    width: 85%;
+}
+
+li a {
+    transition: font-size 0.3s ease, color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    font-size: 14px;
+}
+
+.navegador:hover {
+    font-size: medium;
+    border-radius: 2ch;
+    background-color: #6277bd;
+}
+
+.navegador {
+    width: 100%;
+}
+
+/******Contactos y redes sociales******/
+
+.div_triple {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    height: 100%;
+}
+
+.div_informacion {
+    background-color: rgb(152, 206, 144);
+    padding: 1%;
+    border-radius: 1ch;
+    height: 592px;
+}
+
+.Enlacescontacto {
+    color: blue;
+    text-decoration: none;
+}
+
+.fotos_horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.div_mapa {
+    background-color: rgb(152, 206, 144);
+    padding: 4.2% 2% 4.2% 2%;
+    border-radius: 1ch;
+    height: 50%;
+}
+
+.Mapa_Cerdanyola {
+    border-radius: 1ch;
+}
+
+/******Informacion union europea******/
+
+.agenda2030 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 2%;
+    background-color: rgb(152, 206, 144);
+    border-radius: 1ch;
+}
+
+
+
+.agenda2030_2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 1ch;
+    background-color: rgb(152, 206, 144);
+}
+
+.h3_1_2030 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    font-size: larger;
+    margin: 2%;
+    border-radius: 1ch;
+}
+
+.h5_2030 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 2%;
+    font-size: large;
+}
+
+.h6_2030 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1%;
+    margin-left: 2%;
+    font-size: medium;
+    border-radius: 1ch;
+}
+
+.agenda2030_2_1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 1%;
+    padding-right: 1%;
+    background-color: rgb(152, 206, 144);
+    border-radius: 1ch;
+}
+
+.navgeneral2030 {
+    display: flex;
+
+}
+
+.navgeneral_2030 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1ch;
+}
+
+.imgUE {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4.4%;
+    height: 85%;
+    border-radius: 1ch;
+    margin-bottom: 4%;
+}
+
+.h3_2030 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: x-large;
+    border-radius: 1ch;
+    background-color: rgb(152, 206, 144);
+}
+
+.parrafo2030 {
+    display: flex;
+    font-size: medium;
+    margin: 1%;
+    margin-left: 2%;
+}
+
+dt {
+    font-weight: bold;
+    display: flex;
+    font-size: large;
+    margin: 1%;
+    margin-left: 2%;
+}
+
+/******Galería de imágenes******/
+
+.galeriaEntera {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.foto {
+    width: 280px;
+    height: 236;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(150, 206, 142);
+    margin: 1%;
+    border-radius: 1.5ch;
+    text-align: justify;
+}
+
+.fotoSola {
+    width: 280px;
+    height: 236;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    margin-top: 1%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(150, 206, 142);
+    border-radius: 1.5ch;
+    text-align: justify;
+}
+
+.textoFotos {
+    font-weight: bold;
+}
+
+/******Consejos para empresas y habitantes******/
+
+.div_consejos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.div_empresas {
+    width: 45%;
+    background-color: rgb(150, 206, 142);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 1.5ch;
+}
+
+.div_habitantes {
+    width: 45%;
+    background-color: rgb(150, 206, 142);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 1ch;
+}
+
+titulo {
+    font-weight: bold;
+}
+
+/******Pagina ayuntamiento******/
+
+.ayuntamientodiv1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(152, 206, 144);
+    border-radius: 1ch;
+    height: 400px;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+.ayuntamientodiv1img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(152, 206, 144);
+    border-radius: 1ch;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.navgeneralayuntamiento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+.parrafoayuntamiento {
+    display: flex;
+    font-size: medium;
+    margin: 1%;
+    margin-left: 2%;
+}
+
+.imgAyu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4.4%;
+    height: 85%;
+    border-radius: 1ch;
+    margin-bottom: 3%;
+}
+/******Tabla ayuntamiento******/
+table {
+    border-color: rgb(0, 0, 0);
+    border-style: hidden;
+    margin: 2%;
+}
+
+td {
+    border-color: rgb(0, 0, 0);
+    border-style: ridge;
+    margin: 2%;
+
+}
+
+tr {
+    border-color: rgb(0, 0, 0);
+
+}
+
+th {
+    border-color: rgb(0, 0, 0);
+    margin-right: 3%;
+    text-align: center;
+    border-style: solid;
+}
+
+.tdd{
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    margin-right: 3%;
+    text-align: center;
+    border-style: solid;
+
+}
