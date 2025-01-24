@@ -213,12 +213,31 @@ li a {
     background-color: rgb(152, 206, 144);
     padding: 1%;
     border-radius: 1ch;
-    height: 592px;
 }
 
 .Enlacescontacto {
     color: blue;
     text-decoration: none;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgb(114, 179, 104);
+    border-radius: 15px;
+    width: 600px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
 }
 
 .fotos_horizontal {
